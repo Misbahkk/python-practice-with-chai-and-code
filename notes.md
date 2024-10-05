@@ -78,4 +78,5 @@ Purpose: The str() function is used to give a user-friendly, readable representa
 **Goal:** It’s designed to return a string that’s easy for humans to read.
 
 **When to use:** Use str() when you want to display or print an object in a simple, user-friendly way.
-str(now) and print(now) give you the simple, human-readable version.
+
+**str(now)** and **print(now)** give you the simple, human-readable version.
