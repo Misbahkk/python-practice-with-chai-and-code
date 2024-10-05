@@ -49,6 +49,8 @@ print((0.1+0.1+0.1)-0.3)
 # OUTPUT - 5.551115123125783e-17 
 # Because python give not this accurate result so we use libraruy for this type of oprations
 
-from decimal import *
-x =Decimal(0.1)+Decimal(0.1)+Decimal(0.1)
-print(x)
+from decimal import Decimal
+x = Decimal('0.1') + Decimal('0.1') + Decimal('0.1')- Decimal('0.3')
+print(x) 
+# y=x-Decimal(0.3)
+# print(y)
