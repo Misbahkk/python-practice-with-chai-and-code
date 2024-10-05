@@ -54,4 +54,28 @@ The garbage collector in Python is like a cleanup worker that automatically remo
 
 **Cyclic Garbage Collection:** Sometimes, two or more objects point to each other in a loop (a cycle), and no other variable uses them. Python's garbage collector can detect these "cycles" and clean them up to
 
+<hr>
+<hr>
 
+
+
+## 1. repr()
+ – "Official" or Debug Representation
+Purpose: The repr() function is used to give an official, unambiguous representation of an object, mainly for debugging purposes.
+
+**Goal:** The idea is that when you call repr(), it shows a string that can ideally be used to recreate the object.
+
+**When to use:** Use repr() when you want a precise or detailed representation of the object, often for debugging.
+#### repr() output
+print(repr(now))  # Output: datetime.datetime(2024, 10, 5, 12, 0, 0)
+repr(now) gives you the detailed, official representation (you could recreate the datetime object from this).
+
+
+## 2.str() 
+– "Human-Friendly" or Informal Representation
+Purpose: The str() function is used to give a user-friendly, readable representation of an object.
+
+**Goal:** It’s designed to return a string that’s easy for humans to read.
+
+**When to use:** Use str() when you want to display or print an object in a simple, user-friendly way.
+str(now) and print(now) give you the simple, human-readable version.
