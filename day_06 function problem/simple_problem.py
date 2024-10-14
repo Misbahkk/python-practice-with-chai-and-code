@@ -18,3 +18,13 @@ def mul(num1,num2):
     return num1*num2
 num2='misbah '
 print(mul(num1,num2))
+
+
+def circle(r):
+    area = 3.14*(r**2)
+    cercum = 2*3.14*r
+    return area,cercum
+
+
+r= 7
+print(circle(r))
