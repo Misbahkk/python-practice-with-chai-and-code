@@ -20,11 +20,13 @@ num2='misbah '
 print(mul(num1,num2))
 
 
+import math
 def circle(r):
-    area = 3.14*(r**2)
-    cercum = 2*3.14*r
+    area = math.pi*(r**2)
+    cercum = 2*math.pi*r
     return area,cercum
 
 
 r= 7
-print(circle(r))
+a,c = circle(r)
+print(f"Area of circle is : {a:.2f} \n Circumfarance of circle is {c:.2f}")
