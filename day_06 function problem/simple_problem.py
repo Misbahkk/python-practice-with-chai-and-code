@@ -17,7 +17,7 @@ num2=7
 def mul(num1,num2):
     return num1*num2
 num2='misbah '
-print(mul(num1,num2))
+# print(mul(num1,num2))
 
 
 import math
@@ -29,4 +29,12 @@ def circle(r):
 
 r= 7
 a,c = circle(r)
-print(f"Area of circle is : {a:.2f} \n Circumfarance of circle is {c:.2f}")
+# print(f"Area of circle is : {a:.2f} \n Circumfarance of circle is {c:.2f}")
+
+
+# Lambda Function
+
+cube = lambda x:x**3
+print(cube(3))
+
+
