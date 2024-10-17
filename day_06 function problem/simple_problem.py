@@ -38,3 +38,11 @@ cube = lambda x:x**3
 print(cube(3))
 
 
+# *arg
+
+def arg_method(i,*arg):
+    sum=0
+    for num in i:
+        sum+=num
+        return sum
+print(arg_method(2,3))
