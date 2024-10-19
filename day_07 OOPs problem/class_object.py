@@ -29,20 +29,20 @@ class ElectricClass(CAR):
 
 
 electricClass = ElectricClass(30,"change",'toyato')
-print(electricClass.battery_saver)
-print(electricClass.model)
+# print(electricClass.battery_saver)
+# print(electricClass.model)
 # print(electricClass.__brnad) This is private attribute we can not acess like this
-print(electricClass.get_brand())
-electricClass.write()
+# print(electricClass.get_brand())
+# electricClass.write()
 
-print(electricClass.fule_type())
+# print(electricClass.fule_type())
 
 
 car_class = CAR("yello","beand")
 car_class1 = CAR("yello","beand")
-print(car_class.fule_type())
-print(electricClass.write())
-car_class.write()
+# print(car_class.fule_type())
+# print(electricClass.write())
+# car_class.write()
 # print(car_class.brnad)
 
 print(CAR.total_car)

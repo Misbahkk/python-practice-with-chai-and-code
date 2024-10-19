@@ -40,7 +40,7 @@ print(cube(3))
 
 # *arg
 
-def arg_method(i,*arg):
+def arg_method(i,*args):
     sum=0
     for num in i:
         sum+=num
