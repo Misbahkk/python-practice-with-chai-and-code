@@ -1,0 +1,1 @@
+[{"name": "python series", "time": "10 hours"}, {"name": "django series", "time": "10 hours"}, {"name": "php series", "time": "3 hour"}]
