@@ -1,6 +1,8 @@
 import time
 
 
+
+# alwyas create a decorator funtion in function
 def timer(func):
     def wraper(*args,**kwargs):
         start = time.time()
@@ -13,6 +15,8 @@ def timer(func):
     
     return wraper
 
+
+# now we create a decorator of timer fucntion
 @timer
 def example_funtion(n):
     time.sleep(n)
