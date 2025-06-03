@@ -13,4 +13,4 @@ def exmple(a,b,c,d=6):
     print(a+b+c+d)
 
 
-exmple(1,2,3,d=5)
+exmple(1,2,c=3,d=5)

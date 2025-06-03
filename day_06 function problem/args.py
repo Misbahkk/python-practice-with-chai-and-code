@@ -12,6 +12,7 @@ def pair_kwargs(**kwargs):
     # print(kwargs)
     for key, value in kwargs.items():
         print(f'{key} : {value}')
+    print(kwargs)
 
 # print(pair_kwargs(name="misbah",surnamw="yousaf")) 
 # print(pair_kwargs(name="misbah",surnamw="yousaf",department= "CS")) 
@@ -23,10 +24,10 @@ def pair_kwargs(**kwargs):
 
 def even(limit):
     for i in range(2,limit+1,2):
-        # return i  // This return only 1 valuee and terminate the loop so that's why we use yield
+        # return i  #// This return only 1 valuee and terminate the loop so that's why we use yield
         yield i # this stire the value in memory and also adress and geenrate the number
     
-
+print(even(10))
 for i in even(10):
     print(i)
 

@@ -55,10 +55,10 @@ print(car_class.genral_des())
 print(CAR.genral_des())
 
 # #This is check for polyorphisim
-# print(car_class.fule_type())
+print(car_class.fule_type())
 # #add new method
-# print(electricClass.write())
-# car_class.write()
+print(electricClass.write())
+car_class.write()
 ## acess a private attribute
 # print(car_class.brnad)
 
@@ -71,3 +71,38 @@ print(car_class.model_acess)
 
 print(isinstance(electricClass,CAR))
 print(isinstance(electricClass,ElectricClass))
+
+
+
+
+
+
+
+
+class Car1:
+
+    def __init__(self,name,titel):
+        self.name = name
+        self.titel= titel
+
+
+    def Hello(self):
+        return f"Hello {self.name} The {self.titel}"
+    
+
+class chiled(Car1):
+
+    def __init__(self, name,titel,extra):
+        super().__init__(name,titel)
+        self.extra =extra
+
+    def GoodBye(self):
+        return f"Good Bye {self.name} you are extra {self.extra}"
+    
+
+
+car1 = Car1("misbah","Student")
+chiled1 = chiled("MISBAH","developer","mishi")
+print(car1.Hello())
+print(chiled1.Hello())
+print(chiled1.GoodBye())

@@ -21,5 +21,5 @@ print(squre_num)
 
 key =["Misbah","Maaadeha","Laiba"]
 values = "Student"
-create_dic = dict.fromkeys(key,key)
+create_dic = dict.fromkeys(values,key)
 print(create_dic)

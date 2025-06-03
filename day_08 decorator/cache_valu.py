@@ -1,4 +1,5 @@
-# Ya check kro ka hamre calculation ek dafa ho gai ha to vese agr duabra koi number ay sitution ia to run na ho voi utha ka deda
+# Ya check kro ka hamre calculation ek dafa ho gai ha to vese agr duabra koi number ay 
+# sitution ia to run na ho voi utha ka deda
 import time
 
 
@@ -12,6 +13,9 @@ def chache(func):
         result = func(*args)
         print("This is not in cache value")
         chache_value[args] = result
+        print(args)
+        print(chache_value[args])
+        print(chache_value)
         return result
     return wraper
 

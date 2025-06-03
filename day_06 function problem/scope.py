@@ -13,9 +13,9 @@ def num():
 
 
 
-# print(x)
-# print(num())
-# print(x) #its value come after add golabal 12...
+print(x)
+print(num())
+print(x) #its value come after add golabal 12...
 
 
 
@@ -33,3 +33,12 @@ print(g) #<function check.<locals>.actull at 0x0000017B01E01080>
 
 print(f(3))
 print(g(3))
+
+
+def check(num):
+    def actull(n):
+        return n ** num
+    return actull
+
+x = check(5)
+print(x(2))
